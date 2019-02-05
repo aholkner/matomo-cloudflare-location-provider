@@ -1,0 +1,29 @@
+{
+    "name": "CloudflareLocationProvider",
+    "description": "Provides GeoIP location data from Cloudflare request headers",
+    "version": "0.1.0",
+    "theme": false,
+    "require": {
+        "piwik": ">=3.8.1-stable,<4.0.0-b1"
+    },
+    "authors": [
+        {
+            "name": "alex",
+            "email": "alex@studiodrydock.com",
+            "homepage": ""
+        }
+    ],
+    "support": {
+        "email": "",
+        "issues": "",
+        "forum": "",
+        "irc": "",
+        "wiki": "",
+        "source": "",
+        "docs": "",
+        "rss": ""
+    },
+    "homepage": "",
+    "license": "GPL v3+",
+    "keywords": []
+}
