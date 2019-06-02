@@ -6,7 +6,8 @@ Provides country-code geolocation for Matomo (Piwik) using Cloudflare headers.  
 instead of the default GeoIP2 plugin if all tracking requests are being routed through Cloudflare.
 
 This plugin trusts the country code provided in the `HTTP_CF_IPCOUNTRY` header injected by 
-Cloudflare, and does not require any GeoIP database.
+Cloudflare, and does not require any GeoIP database.  **Ensure you enable IP Geolocation in 
+the Cloudflare "Network" dashboard.**
 
 If requests are tracked outside of Cloudflare, no geolocation information will be available.
 
