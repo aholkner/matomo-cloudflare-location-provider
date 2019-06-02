@@ -8,6 +8,8 @@
 
 namespace Piwik\Plugins\CloudflareLocationProvider;
 
+use Piwik\Plugins\UserCountry\LocationProvider;
+
 class CloudflareLocationProvider extends \Piwik\Plugin
 {
 	public function deactivate()
